@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astra.</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/ec5b08fd27.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- ==========Header========== -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Astra_.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portofolio">Portofolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Casual Programmer</p>
+            <h1>Hi, I'm <span>Astra</span> <br> From Indonesia</h1>
+        </div>
+    </div>
+</div>
+
+<!-- ==========About========== -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user_.png" alt="">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello, I'm Ade Astrawijaya, a computer science student at the University of Technology Yogyakarta. Throughout my educational journey, I've discovered my passion lies in two things: playing games and learning to code. Currently, I'm honing my coding skills to explore and delve deeper into the world of technology. My interest in gaming provides me with a unique perspective on design and interactivity, while learning to code equips me with the tools to create and develop creative ideas. Through this educational journey, I feel increasingly broad-minded and ready to tackle larger challenges in the world of technology.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('edication')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Programmer</span><br>I excel in coding, using languages like Python to create efficient and elegant solutions.</li>
+                        <li><span>Gamer </span><br>My gaming experience involves a deep understanding of game mechanics and user experience.</li>
+                        <li><span>Photographer</span><br>I have the capability to capture beautiful and meaningful moments, creating visually captivating and inspiring works.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Studying programming at the university.</li>
+                        <li><span>2020 - 2021</span><br>Analyzing census data of the Indonesian population.</li>
+                        <li><span>2014 - 2020</span><br>Celebrated Pro Gamer excelling in both mobile and PC platforms.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="edication">
+                    <ul>
+                        <li><span>2022 - Current</span><br>Studying at the University of Technology Yogyakarta.</li>
+                        <li><span>2022</span><br>Graduated from SMAN 1 BALINGGI.</li>
+                        <li><span>2015</span><br>Graduated from SMPN 1 BALINGGI.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- --------------services----------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Developer</h2>
+                <p>As a software developer, I excel in designing, developing, and implementing software solutions tailored to the clients' needs. Proficient in various programming languages and platforms, I ensure that each project I undertake leverages the latest technology. Focused on reliability, performance, and user experience. Intresting? Contact Me!</p>
+                <a href="#contact">Go!</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-gamepad"></i>
+                <h2>Game Assistant</h2>
+                <p>A passionate gamer myself, I also provide gamer assistant services to help players achieve peak performance in their gaming endeavors. From offering strategic advice and tips to developing specialized software for enhancing the gaming experience, I strive to make your gaming journey more enjoyable and satisfying. Intresting? Contact Me!</p>
+                <a href="#contact">Go!</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera"></i>
+                <h2>Photographer</h2>
+                <p>With a background in photography, I offer photography services to capture your precious moments. Prioritizing creativity and aesthetics, I aim to freeze each moment in time. Whether it's portrait sessions, event photography, or product shots, I am committed to delivering stunning results that meet expectations. Intresting? Contact Me!</p>
+                <a href="#contact">Go!</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------portofolio--------- -->
+<div id="portofolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/we_.png">
+                <div class="layer">
+                    <h3>Software Devs</h3>
+                    <p>Designing visually appealing and functional websites, focusing on UX/UI using HTML, CSS, and JavaScript.</p>
+                    <a href="https://github.com/DeAstr0"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gamers.png">
+                <div class="layer">
+                    <h3>Games Joki</h3>
+                    <p>Playing video games on behalf of others, improving skill levels, or achieving goals across various game genres.</p>
+                    <a href="https://docs.google.com/spreadsheets/d/1EnFY7yg6fpFSau4nSd0MrJCOvgX-zIctwpPpP6e2m24/edit?usp=sharing"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/gallery0.png">
+                <div class="layer">
+                    <h3>Gallery Photo</h3>
+                    <p>Curating and showcasing photographic works in art galleries or museums, with in-depth knowledge of photographic art and effective communication skills.</p>
+                    <a href="https://www.instagram.com/astrograph04/?hl=en"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/DeAstr0" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------contact---------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> setrosijat@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 082293337708</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/ade.astrawijaya"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/ade_astrawijaya03/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/ade-astrawijaya-ba64011b5/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Massage"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ 2024 Astra. Made with <i class="fa-solid fa-fire"></i> by Ade Astrawijaya.</p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxokNxB-tm6PEfKvpRCyEdpVHAi6fDma0jg3VkT76PD4-efa3wyZbhVNUVpO4wIF9Ub/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+
+</body>
+</html>
